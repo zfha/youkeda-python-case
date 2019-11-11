@@ -1,0 +1,12 @@
+[[source]]
+name = "pypi"
+url = "http://mirrors.aliyun.com/pypi/simple/" #修改这里
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+aliyun-python-sdk-core = "==2.13.3"
+
+[requires]
+python_version = "3.7"
